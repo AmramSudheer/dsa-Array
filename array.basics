@@ -1,0 +1,8 @@
+arr = [1,2,3]
+print(arr[1])
+arr.append(100)
+print(arr)
+arr.insert(2,200)
+print(arr)
+arr.pop(3)
+print(arr)
