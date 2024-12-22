@@ -1,0 +1,8 @@
+arr = list(map(int,input().split()))
+def maximum(array):
+    maxi = float('-inf')
+    for i in range(len(array)):
+        if array[i]>maxi:
+            maxi = array[i]
+    return maxi
+print(f"the maximum value is {maximum(arr)}")
