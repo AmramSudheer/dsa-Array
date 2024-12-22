@@ -1,0 +1,8 @@
+arr = list(map(int,input().split()))
+def minimum(array):
+    mini = float('inf')
+    for i in range(len(array)):
+        if array[i]<mini:
+            mini = array[i]
+    return mini
+print(f"the minimum value is {minimum(arr)}")
